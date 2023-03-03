@@ -1,5 +1,5 @@
 function stress = Bar2D2Node_Stress(E,x1,y1,x2,y2,alpha,u)
-    %单元应力计算
+    
     L = sqrt((x2-x1)*(x2-x1)+(y2-y1)*(y2-y1));
     x = alpha*pi/180;
     C = cos(x);
